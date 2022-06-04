@@ -3,8 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Start-Project</title>
+    <title>GUSTO</title>
     <link rel="icon" type="image/x-icon" href="images/logo.ico" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
 
@@ -14,26 +21,25 @@
         <div class="header__inner">
           <div class="logo">
             <a class="logo__link" href="/">
-              <!-- <img src="images/logo.svg" alt="Logo" class="logo__img" /> -->
-              GUSTO
+              <img src="images/logo.png" alt="" />
             </a>
           </div>
-          <!-- <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a class="nav__link" href="#work">Work</a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="#about">About</a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="#contact">Contact</a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="#other">Other</a>
-              </li>
-            </ul>
-          </nav> -->
+          <div class="header__search">
+            <input
+              type="text"
+              class="header__search-input"
+              placeholder="Search by name"
+            />
+          </div>
+          <div class="header__category">
+            <div class="header__category-list">
+              <a class="header__category-item active" href="#">First dishes</a>
+              <a class="header__category-item" href="#">Second dishes</a>
+              <a class="header__category-item" href="#">Drinks</a>
+              <a class="header__category-item" href="#">Other dishes</a>
+              
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -43,99 +49,33 @@
           <div class="container">
             <div class="foods__list">
               <div class="foods__item">
-                <a class="foods__img-box">
+                <a class="foods__img-box" href="food.html">
                   <img src="images/food-1.jpg" alt="" class="foods__img" />
                 </a>
-                <button class="foods__order-btn">+</button>
-              </div>
-              <div class="foods__item">
-                <a class="foods__img-box">
-                  <img src="images/food-1.jpg" alt="" class="foods__img" />
-                </a>
-                <button class="foods__order-btn">+</button>
-              </div>
-              <div class="foods__item">
-                <a class="foods__img-box">
-                  <img src="images/food-1.jpg" alt="" class="foods__img" />
-                </a>
-                <button class="foods__order-btn">+</button>
-              </div>
-              <div class="foods__item">
-                <a class="foods__img-box">
-                  <img src="images/food-1.jpg" alt="" class="foods__img" />
-                </a>
-                <button class="foods__order-btn">+</button>
-              </div>
-              <div class="foods__item">
-                <a class="foods__img-box">
-                  <img src="images/food-1.jpg" alt="" class="foods__img" />
-                </a>
-                <button class="foods__order-btn">+</button>
-              </div>
-              <div class="foods__item">
-                <a class="foods__img-box">
-                  <img src="images/food-1.jpg" alt="" class="foods__img" />
-                </a>
-                <button class="foods__order-btn">+</button>
-              </div>
-              <div class="foods__item">
-                <a class="foods__img-box">
-                  <img src="images/food-1.jpg" alt="" class="foods__img" />
-                </a>
-                <button class="foods__order-btn">+</button>
-              </div>
-              <div class="foods__item">
-                <a class="foods__img-box">
-                  <img src="images/food-1.jpg" alt="" class="foods__img" />
-                </a>
-                <button class="foods__order-btn">+</button>
-              </div>
-              <div class="foods__item">
-                <a class="foods__img-box">
-                  <img src="images/food-1.jpg" alt="" class="foods__img" />
-                </a>
-                <button class="foods__order-btn">+</button>
-              </div>
-              <div class="foods__item">
-                <a class="foods__img-box">
-                  <img src="images/food-1.jpg" alt="" class="foods__img" />
-                </a>
-                <button class="foods__order-btn">+</button>
-              </div>
-              <div class="foods__item">
-                <a class="foods__img-box">
-                  <img src="images/food-1.jpg" alt="" class="foods__img" />
-                </a>
-                <button class="foods__order-btn">+</button>
-              </div>
-              <div class="foods__item">
-                <a class="foods__img-box">
-                  <img src="images/food-1.jpg" alt="" class="foods__img" />
-                </a>
+                <div class="foods__item-name">Lagman</div>
                 <button class="foods__order-btn">+</button>
               </div>
             </div>
           </div>
         </section>
-        <!-- <section class="cart">
-          <div class="container">
-            <div class="cart__inner">
-
-            </div>
-          </div>
-        </section> -->
       </main>
       <footer class="footer">
-          <div class="footer__inner">
-            <a class="primary-btn cart-btn" href="#"></a>
-            <div class="footer__list">
-              <a class="primary-btn footer__item" href="#"></a>
-              <a class="primary-btn footer__item" href="#"></a>
-              <a class="primary-btn footer__item" href="#"></a>
-              <a class="primary-btn footer__item" href="#"></a>
-            </div>
+        <div class="footer__inner">
+          <div class="footer__list">
+            <a class="primary-btn footer__item" href="#">
+              <img src="images/home.svg" alt="">
+            </a>
+            <a class="primary-btn footer__item" href="#">
+              <img src="images/fevourites.svg" alt="">
+            </a>
+            <a class="primary-btn footer__item" href="#">
+              <img src="images/cart.svg" alt="">
+            </a>
+            <a class="primary-btn footer__item" href="#">
+              <img src="images/sett.svg" alt="">
+            </a>
           </div>
-        
+        </div>
       </footer>
     </div>
 
