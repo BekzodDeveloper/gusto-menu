@@ -1,84 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GUSTO</title>
-    <link rel="icon" type="image/x-icon" href="images/logo.ico" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="icon" type="image/x-icon" href="images/logo.ico" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.min.css" />
-  </head>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/style.min.css" />
+	</head>
+	<body>
+		<div class="cart-page">
+			<div class="cart-page__content">
+				<div class="items-list">
+					<!-- <div class="cart-item">
+						<div class="cart-item__image">
+							<img src="./images/food-1.jpg" alt="image" />
+						</div>
+						<div class="cart-item__description">
+							<h5 class="description__title">Egg in bread</h5>
+							<span class='description__price'>16 000 UZS</span>
+						</div>
+						<div class="cart-item__counter">
+							<button class="btn btn-plus">+</button>
+							<span>1</span>
+							<button class="btn btn-minus">-</button>
+						</div>
+					</div>
+					<div class="cart-item">
+						<div class="cart-item__image">
+							<img src="./images/food-1.jpg" alt="image" />
+						</div>
+						<div class="cart-item__description">
+							<h5 class="description__title">Egg in bread</h5>
+							<span class='description__price'>16 000 UZS</span>
+						</div>
+						<div class="cart-item__counter">
+							<button class="btn btn-plus">+</button>
+							<span>1</span>
+							<button class="btn btn-minus">-</button>
+						</div>
+					</div>
+					<div class="cart-item">
+						<div class="cart-item__image">
+							<img src="./images/food-1.jpg" alt="image" />
+						</div>
+						<div class="cart-item__description">
+							<h5 class="description__title">Egg in bread</h5>
+							<span class='description__price'>16 000 UZS</span>
+						</div>
+						<div class="cart-item__counter">
+							<button class="btn btn-plus">+</button>
+							<span>1</span>
+							<button class="btn btn-minus">-</button>
+						</div>
+					</div>
+					<div class="cart-item">
+						<div class="cart-item__image">
+							<img src="./images/food-1.jpg" alt="image" />
+						</div>
+						<div class="cart-item__description">
+							<h5 class="description__title">Egg in bread</h5>
+							<span class='description__price'>16 000 UZS</span>
+						</div>
+						<div class="cart-item__counter">
+							<button class="btn btn-plus">+</button>
+							<span>1</span>
+							<button class="btn btn-minus">-</button>
+						</div>
+					</div>
+					<div class="cart-item">
+						<div class="cart-item__image">
+							<img src="./images/food-1.jpg" alt="image" />
+						</div>
+						<div class="cart-item__description">
+							<h5 class="description__title">Egg in bread</h5>
+							<span class='description__price'>16 000 UZS</span>
+						</div>
+						<div class="cart-item__counter">
+							<button class="btn btn-plus">+</button>
+							<span>1</span>
+							<button class="btn btn-minus">-</button>
+						</div>
+					</div>
+					<div class="cart-item">
+						<div class="cart-item__image">
+							<img src="./images/food-1.jpg" alt="image" />
+						</div>
+						<div class="cart-item__description">
+							<h5 class="description__title">Egg in bread</h5>
+							<span class='description__price'>16 000 UZS</span>
+						</div>
+						<div class="cart-item__counter">
+							<button class="btn btn-plus">+</button>
+							<span>1</span>
+							<button class="btn btn-minus">-</button>
+						</div>
+					</div> -->
+					<div class="items-empty">
+						<div class="cart-item">
+							<div class="cart-item__image">
+								<img src="./images/food-1.jpg" alt="${name}" />
+							</div>
+							<div class="cart-item__description">
+								<h5 class="description__title">Gazpacho</h5>
+								<span class="description__price">19000 UZS</span>
+							</div>
+							<div class="cart-item__counter">
+								<button class="btn btn-plus">+</button>
+								<span>1</span>
+								<button class="btn btn-minus">-</button>
+							</div>
+						</div>
+						<div class="cart-item">
+							<div class="cart-item__image">
+								<img src="./images/food-1.jpg" alt="${name}" />
+							</div>
+							<div class="cart-item__description">
+								<h5 class="description__title">Gazpacho</h5>
+								<span class="description__price">19000 UZS</span>
+							</div>
+							<div class="cart-item__counter">
+								<button class="btn btn-plus">+</button>
+								<span>1</span>
+								<button class="btn btn-minus">-</button>
+							</div>
+						</div>
+						<div class="cart-item">
+							<div class="cart-item__image">
+								<img src="./images/food-1.jpg" alt="${name}" />
+							</div>
+							<div class="cart-item__description">
+								<h5 class="description__title">Gazpacho</h5>
+								<span class="description__price">19000 UZS</span>
+							</div>
+							<div class="cart-item__counter">
+								<button class="btn btn-plus">+</button>
+								<span>1</span>
+								<button class="btn btn-minus">-</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="items-total">
+					<h4 class="items-total__price"></h4>
+					<button class="items-total__btn">Make the order</button>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="footer__inner">
+				<div class="footer__list">
+					<a class="primary-btn footer__item" href="./index.html">
+						<img src="images/home.svg" alt="" />
+					</a>
+					<a class="primary-btn footer__item" href="#">
+						<img src="images/fevourites.svg" alt="" />
+					</a>
+					<a class="primary-btn footer__item" href="./cart.html">
+						<img src="images/cart.svg" alt="" />
+					</a>
+					<a class="primary-btn footer__item" href="#">
+						<img src="images/sett.svg" alt="" />
+					</a>
+				</div>
+			</div>
+		</footer>
 
-  <body>
-    <header class="header">
-      <div class="container">
-        <div class="header__inner">
-          <div class="logo">
-            <a class="logo__link" href="/">
-              <img src="images/logo.png" alt="" />
-            </a>
-          </div>
-          <div class="header__search">
-            <input
-              type="text"
-              class="header__search-input"
-              placeholder="Search by name"
-            />
-          </div>
-          <div class="header__category">
-            <div class="header__category-list">
-              <a class="header__category-item active" href="#">First dishes</a>
-              <a class="header__category-item" href="#">Second dishes</a>
-              <a class="header__category-item" href="#">Drinks</a>
-              <a class="header__category-item" href="#">Other dishes</a>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-    <div class="wrapper">
-      <main class="main">
-        <section class="foods">
-          <div class="container">
-            <div class="foods__list">
-              <div class="foods__item">
-                <a class="foods__img-box" href="food.html">
-                  <img src="images/food-1.jpg" alt="" class="foods__img" />
-                </a>
-                <div class="foods__item-name">Lagman</div>
-                <button class="foods__order-btn">+</button>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-      <footer class="footer">
-        <div class="footer__inner">
-          <div class="footer__list">
-            <a class="primary-btn footer__item" href="#">
-              <img src="images/home.svg" alt="">
-            </a>
-            <a class="primary-btn footer__item" href="#">
-              <img src="images/fevourites.svg" alt="">
-            </a>
-            <a class="primary-btn footer__item" href="#">
-              <img src="images/cart.svg" alt="">
-            </a>
-            <a class="primary-btn footer__item" href="#">
-              <img src="images/sett.svg" alt="">
-            </a>
-          </div>
-        </div>
-      </footer>
-    </div>
-
-    <script src="js/main.min.js"></script>
-  </body>
+		<script src="js/main.min.js"></script>
+	</body>
 </html>
